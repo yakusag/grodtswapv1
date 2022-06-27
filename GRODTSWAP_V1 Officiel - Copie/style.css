@@ -1,0 +1,182 @@
+html{
+  font-size: 100%;
+  box-sizing:border-box;
+
+}
+body {
+ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+ 
+
+.fullscreen-bg{
+  background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-image: url(bg.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+}
+
+
+
+
+#window{
+  position: center;
+  margin-top: 160px;  
+  display: 0;
+  background-attachment: fixed;
+  background-color: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 5px rgb(187, 255, 0);
+
+
+}
+
+
+.swapbox_select {
+  cursor: pointer;
+  width: 100%;
+  float: none;
+  margin: 13px;
+  margin-top: 2px;
+  display: 0;
+  background-attachment: fixed;
+  background-color: rgb(27, 27, 27);
+  color: rgb(255, 255, 255);
+  padding: 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px rgb(0, 0, 0);
+
+}
+.swapbox{
+  overflow: auto;
+  display: flex;
+  width: 100%;
+  margin: 18px 0;
+  padding: 16px 2px 2px 0;
+  background-color: #063606;
+  border-radius: 20px;
+  border: 1px solid #720606;
+  
+  
+}
+.token_select{
+  cursor: pointer;
+  width: 200px;
+  float: left;
+  margin-top: 4px;
+  display: 0;
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 9px 1px 15px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 8px rgb(10, 10, 10);
+  
+  
+
+  
+ 
+}
+.token_select:hover{
+  background-color: #008cff;
+  cursor: pointer;
+  
+  
+}
+ 
+
+
+.form-control, .from_amount {
+  font-size: large;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  margin-top: 4px;
+  display: 0;
+  background-attachment: local;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 8px rgb(10, 10, 10);
+  overflow: hidden;
+
+
+}
+
+
+
+
+
+
+.token_list_img, .token_image{
+  width: 40px;
+
+
+
+}
+.modal-body{
+  height: 600px;
+  overflow: auto;
+  background-attachment: auto;
+  background-color: rgb(12, 14, 12);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(60, 253, 1);
+
+
+
+}
+.token_row{
+  padding: 5px 10px;
+
+
+  }
+.token_row:hover{
+  background-color: #0093e9;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.modal-content{
+  height: 700px;
+  width: 101%;
+  background-attachment: fixed;
+  background-color: rgb(1, 8, 0);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px rgb(72, 255, 0);
+  border-radius: 20px;
+  overflow: auto;
+  
+}
+
+#swap_button{
+  margin-top: 15px;
+  border-radius: 15px;
+  border: #f200fa;
+  box-shadow: #ff00ff;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+#search-input {
+  margin-top: 10px;
+  border-radius: 8px;
+  border: #f200fa;
+  box-shadow: #ff00ff;
+  padding: 10px;
+  margin-bottom: 0px; 
+  width: 100%;
+}
